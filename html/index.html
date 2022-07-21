@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title color="red">DRIPY PINJU</title>
+          
+                
+    </head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet"  href="css/main.css">
+  <body>
+    
+      
+      <div class="hero-img">
+        <header>
+      <a href="#" class="logo" onClick="window.location.reload();">&nbsp;&nbsp;&nbsp;FELIS &nbsp;&nbsp;&nbsp;<span>CATUS&nbsp;</span>
+        <img class="img" src="images\cat-66.png"></img>
+      </a>
+      
+        
+        <nav>
+          <img  class="close" src="images\cross.png" alt="close icon">
+          <ul>
+            <li><a class="home" href="#" onClick="window.location.reload();">home</a></li>
+            <li><a class="gato" href="#">gato</a></li>
+            <div id="down"></div>
+            <li><a class="catus" href="#">felis cauts</a></li>
+          </ul>
+        </nav> 
+        <svg class="hammenu" viewBox="0 0 100 80" width="40" height="40">
+          <rect width="100" height="20"></rect>
+          <rect y="30" width="100" height="20"></rect>
+          <rect y="60" width="100" height="20"></rect>
+        </svg>
+        </header>
+        <section class="hero">
+          <h1>Regain your mental health with catos.</h1>
+          <p class="subhead"> Watching cats even do the siliest things can make people isolate their mind from chaos in thier surrounding. </p>
+
+        </section>
+        <section>
+          <div class="feature">
+            <div class="content">
+              <p class="title">KAWAI</p>
+              <p class="desc">piggos</p>
+            </div>
+            <img src="images\cato-2.png" alt="bussy">
+          </div>
+          <div class="feature left">
+            <div class="content">
+              <p class="title">KAWAI</p>
+              <p class="desc">monke</p>
+            </div>
+            <img src="images\cato-3.jpeg" alt="bussy">
+          </div>
+          <div class="feature food">
+            <div class="content">
+              <p class="title">KAWAI</p>
+              <p class="desc">food</p>
+            </div>
+            <img src="images\cato-4.jpg" alt="bussy">
+          </div>
+          <div class="feature left">
+            <div class="content">
+              <p class="title">KAWAI</p>
+              <p class="desc">peach
+              </p>
+            </div>
+            <img src="images\cato-5.png" alt="bussy">
+          </div>
+        </section>
+      </div>
+      <script>
+        const hammenu = document.querySelector('.hammenu')
+        const close = document.querySelector('.close')
+        const nav = document.querySelector('nav')
+        const home = document.querySelector('home')
+        hammenu.addEventListener('click',()=>{
+          nav.classList.add('open-nav')
+        })
+        close.addEventListener('click',()=>{
+          nav.classList.remove('open-nav')
+        }) 
+        home.addEventListener('click',()=>{
+          window.location.reload();
+        }) 
+
+
+      </script>
+    </body>
+</html>
